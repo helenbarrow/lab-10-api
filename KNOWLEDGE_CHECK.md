@@ -14,4 +14,6 @@ Name the Lambda function from your screenshot. Why did Chalice create this funct
 
 **Your answer:**
 
-...
+The Lambda function is "book-analyzer-dev." It's purpose is to handle http requests to the API,
+and chalice needed to separate this from the original Lambda function that was triggered by S3
+events. 
